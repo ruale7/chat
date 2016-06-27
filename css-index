@@ -1,0 +1,136 @@
+#board{
+	height:calc(100% - 170px);
+	overflow:auto;
+}
+
+.round-border{
+	border-radius: 0px;
+}
+
+.message-right{
+	word-wrap: break-word;
+	width: 52%;
+	float: right;
+	text-align: right;
+	color:white;
+	background: gray;
+	margin:3px 15px 3px 0px;
+	padding: 2px 8px 2px 2px;
+	border-radius: 4px
+}
+
+.message-left{
+	word-wrap: break-word;
+	width: 52%;
+	float: left;
+	text-align: left;
+	color: black;
+	background: #D3D3D3;
+	margin:3px 0px 3px 15px;
+	padding: 2px 2px 2px 8px;
+	border-radius: 4px
+}
+
+#message-area{
+	width: 100%;
+	resize: none;
+	color: black;
+}
+
+.send-button{
+	float: right;
+	margin-top:14px;
+} 
+
+.footer-chat{
+	display: inline-block;
+	width: 100%;
+	height: 115px;
+	padding:10px;
+} 
+
+.title-users{
+	padding-top: 12px;
+	text-align: center;
+	margin-top: 3px;
+	font-size: large;
+}
+
+#users-list-in-column{
+	height:calc(100% - 50px);
+	overflow:auto
+}
+
+.div-user{
+	margin-bottom:10px;
+	margin-top:10px;
+	background: gray;
+	border: 2px solid;
+	border-radius: 800px;
+	cursor: pointer;
+	margin-left: 6px;
+}
+
+.div-user:hover{
+	border: 2px solid gray;
+	border-radius: 800px;
+	transform: scale(1.1);
+	
+}
+
+.div-text-area-footer{
+	width:calc(100% - 95px);
+	float:right;
+}
+
+.div-img-footer{
+	float:left;
+	width:83px;
+	height:103px
+}
+.position-img-user{
+	position:relative; 
+	top:15%;
+	left:15%
+}
+
+.img-selected{
+	border: 5px solid black ! important;
+}
+
+.name-user{
+	text-align:center;
+}
+
+.live-clock{
+	text-align:right;
+	padding-right: 5px
+}
+
+.title-chat{
+	text-align:center;
+	padding:13px;
+	color:gray;
+}
+
+.date{
+	padding-right: 5px
+}
+
+.clear-padding{
+    padding: 0;
+	height: 100%;
+}
+
+.main-section{
+	height:calc(100vh - 100px);
+	width:100%;
+	position:relative
+}
+
+.main-aside{
+	height:100%
+}
+
+
+

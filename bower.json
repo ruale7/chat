@@ -1,0 +1,22 @@
+{
+  "name": "bootcamp-chat",
+  "authors": [
+    "Alejandro <alejando.ruiz@sngular.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "firebase": "^2.4.2"
+  }
+}

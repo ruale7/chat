@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100vh">
+  
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Chat</title>
+	    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" type="text/css" href="css-index"/>
+	</head>
+
+	<body>
+
+	  	<header>
+	    	<h1 class="title-chat">S|ngular Chat</h1>
+		</header>
+
+		<section class="main-section">
+
+			<aside class="hidden-xs col-sm-4 col-md-3 col-lg-3 bg-primary round-border main-aside">
+				<div>
+					<p class="title-users">Usuarios</p>
+				</div>
+				<div id="users-list-in-column">
+					<div>
+						<img class="div-user img-selected" alt="Grupo" src="http://previews.123rf.com/images/ppbig/ppbig1504/ppbig150400757/39365032-red-social-de-la-comunidad-grupo-de-personas-Foto-de-archivo.jpg" width=72 height=72> Grupo
+					</div>
+				</div>
+			</aside>
+			
+			<section class="col-xs-12 col-sm-8 col-md-9 col-lg-9 clear-padding">
+
+			 	<header class="bg-primary round-border"/>
+			 		<p id="liveclock" class="live-clock"></p>
+				</header>
+
+				<section id="board">
+				</section>
+
+				<section class="footer-chat bg-primary round-border">
+					<div class="div-text-area-footer">
+							<textarea id="message-area" class="round-border bg-info" placeholder="Escriba aquí su mensaje"></textarea>
+							<button type="button" id="send-button" class="round-border send-button btn-info">Enviar</button>
+					</div>
+					<div class="div-img-footer">
+						<p class="name-user">Alex</p>
+						<img class="position-img-user round-border" src="http://www.nocturnar.com/comunidad/attachments/foto-graciosa-jpg.22761/" width=60 height=60 ></img>	
+					</div>	
+				</section>
+
+			</section>
+
+		</section>
+
+	</body>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/firebase/firebase.js"></script>
+	<script src="globalVar.js"></script>
+	<script src="connectionsChat.js"></script>
+	<script src="localChat.js"></script>
+	<script src="ready.js"></script>
+
+</html>
+
